@@ -14,7 +14,7 @@ path='C:/Users/SamSung/Desktop/uni/y4/year_project/img_stats'# appropriate file 
 
 names=os.listdir(path)
 shuffle(names)
-split_no=12 # 12 to 23 train/test를 어디서 나눌건지
+split_no=12
 control_aug_no=0
 mutant_aug_no=0
 
