@@ -48,7 +48,7 @@ def count_samples(trainset):
         else:
             pass
     return plus
-#print('there are ',count_samples(train_names),'control samples in the trainset')
+
 N=count_samples(train_names)# number of healthy in INITIAL training set.
 control_aug_no=60
 mutant_aug_no=int((N/(12-N))*(control_aug_no+1)-1)# balance no. of samples in each class
